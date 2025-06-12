@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.form-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+select,
+input[type="number"],
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pokemon {
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pokemon p {
+  margin: 8px 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.pokemon img {
+  width: 120px;
+  height: auto;
+  margin: 10px 0;
+}

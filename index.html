@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Cards</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="form-container">
+      <label for="type">Select Pokemon Type:</label>
+      <select name="type" id="type">
+        <option value="fire">fire</option>
+        <option value="water">water</option>
+        <option value="grass">grass</option>
+        <option value="psychic">psychic</option>
+      </select>
+      <input id="" type="number" placeholder="Number of cards" />
+      <button onclick="fetchcards()">Submit</button>
+    </div>
+    <div id="pokemon-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
